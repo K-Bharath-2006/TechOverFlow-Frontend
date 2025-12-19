@@ -1,0 +1,183 @@
+@import url("./base.css");
+
+.home{
+    padding: 60px 90px;
+    /* background-color: var(--primary-color); */
+}
+
+.home h2{
+    padding: 10px 0;
+    color: darkolivegreen;
+}
+
+.qCon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.q {
+  background: #f3f1f1;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+}
+
+.q:hover {
+  border-color: #7291b8;
+  transform: translateY(-2px);
+}
+
+.q h4 {
+  margin: 0;
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.q p {
+  margin: 6px 0;
+  color: #475569;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tag {
+  background: #f9fafb;
+  color: #0369a1;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #bfd1db;
+  transition: 0.2s;
+}
+
+
+.search {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 16px;
+  margin: 15px 0 25px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+  outline: none;
+}
+
+.search:focus {
+  border-color: #2563eb;
+}
+
+
+.add {
+  display: inline-block;
+  margin-left: 600px;
+}
+
+.add button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  background: #f8fafc;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.hero-left img {
+  width: 100%;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 60px;
+}
+
+.hero-right h1 {
+  font-size: 44px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+
+.hero-right p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 25px;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  width: 200px;
+  align-content: center;
+}
+
+.hero-link:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.about-brand {
+  margin-top: 30px;
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #f9fafb;
+  border-radius: 20px;
+}
+
+.about-brand h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.about-brand p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+}

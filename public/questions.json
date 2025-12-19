@@ -1,0 +1,222 @@
+[
+  {
+    "questionId": 1,
+    "title": "How to fix CORS error in React and Node.js?",
+    "description": "I am getting a CORS policy error while sending API requests from my React frontend to my Node backend. How can I resolve this issue?",
+    "tags": ["react", "nodejs", "cors", "api"],
+    "solutions": [
+      "Enable CORS in backend using the cors npm package.",
+      "Set correct origin header inside your CORS middleware.",
+      "Use a proxy in React during development instead of hitting backend directly."
+    ]
+  },
+  {
+    "questionId": 2,
+    "title": "Difference between let, var and const in JavaScript",
+    "description": "I am confused about variable declarations in JavaScript. Can someone clearly explain the difference between let, var, and const?",
+    "tags": ["javascript", "basics", "variables"],
+    "solutions": [
+      "var is function scoped, let/const are block scoped.",
+      "const cannot be reassigned, let can be.",
+      "var gets hoisted with undefined, let/const get temporal dead zone."
+    ]
+  },
+  {
+    "questionId": 3,
+    "title": "How to perform CRUD operations in MongoDB using Mongoose?",
+    "description": "I want an example of how to create, read, update, and delete documents in MongoDB using Mongoose in Node.js.",
+    "tags": ["mongodb", "mongoose", "crud"],
+    "solutions": [
+      "Use Model.create() to insert a document.",
+      "Use Model.find() or findById() to retrieve documents.",
+      "Use findByIdAndUpdate() and findByIdAndDelete() for modifying and deleting."
+    ]
+  },
+  {
+    "questionId": 4,
+    "title": "What is the useEffect dependency array in React?",
+    "description": "I see that useEffect has an optional array argument. What is its purpose and how does it affect component re-rendering?",
+    "tags": ["react", "hooks", "useeffect"],
+    "solutions": [
+      "Empty array runs the effect only once on mount.",
+      "Adding variables triggers effect when they change.",
+      "Omitting array makes it run after every render."
+    ]
+  },
+  {
+    "questionId": 5,
+    "title": "How to optimize SQL queries for faster performance?",
+    "description": "My SQL queries are slow when dealing with large data. What are some techniques to optimize SQL performance?",
+    "tags": ["sql", "database", "performance"],
+    "solutions": [
+      "Create indexes on frequently searched columns.",
+      "Avoid SELECT *, use specific columns instead.",
+      "Use joins properly and avoid unnecessary subqueries."
+    ]
+  },
+  {
+    "questionId": 6,
+    "title": "How to center a div using CSS flexbox?",
+    "description": "I want to place a div exactly at the center of the page using CSS. How can I achieve this using flexbox?",
+    "tags": ["css", "flexbox", "design"],
+    "solutions": [
+      "Use display: flex with justify-content and align-items center.",
+      "Give height: 100vh to parent for perfect vertical centering.",
+      "Use margin: auto when width is set."
+    ]
+  },
+  {
+    "questionId": 7,
+    "title": "Difference between == and === in JavaScript",
+    "description": "What is the main difference between double equals and triple equals? When should I use each one?",
+    "tags": ["javascript", "comparison", "operators"],
+    "solutions": [
+      "== compares after type conversion.",
+      "=== compares without converting types.",
+      "Always prefer === to avoid unexpected results."
+    ]
+  },
+  {
+    "questionId": 8,
+    "title": "How to deploy a React app to Vercel?",
+    "description": "I want to deploy my React project to Vercel. Can anyone explain the steps involved?",
+    "tags": ["react", "vercel", "deployment"],
+    "solutions": [
+      "Push your project to GitHub and connect it to Vercel.",
+      "Let Vercel auto-detect React and build automatically.",
+      "Configure environment variables in Vercel dashboard if needed."
+    ]
+  },
+  {
+    "questionId": 9,
+    "title": "What is JWT authentication and how does it work?",
+    "description": "I'm trying to secure my Node.js backend. How exactly does JWT authentication work and how do I implement it?",
+    "tags": ["jwt", "authentication", "security"],
+    "solutions": [
+      "JWT stores user identity in signed tokens.",
+      "Backend verifies token using secret key.",
+      "Send token in Authorization header for protected routes."
+    ]
+  },
+  {
+    "questionId": 10,
+    "title": "How to solve 404 page not found error in React Router?",
+    "description": "I'm using React Router v6 and getting a 404 error when refreshing a page. How do I fix this?",
+    "tags": ["react-router", "react", "routing"],
+    "solutions": [
+      "Configure catch-all route in your router setup.",
+      "Add rewrite rule in Vercel or Netlify.",
+      "Ensure your server returns index.html for all paths."
+    ]
+  },
+  {
+    "questionId": 11,
+    "title": "How to remove duplicates from an array in JavaScript?",
+    "description": "I want a simple way to remove duplicate values from an array in JavaScript.",
+    "tags": ["javascript", "array", "duplicates"],
+    "solutions": [
+      "Use new Set(array) to remove duplicates.",
+      "Use filter + indexOf logic.",
+      "Use reduce to track seen values."
+    ]
+  },
+  {
+    "questionId": 12,
+    "title": "What is the difference between REST and GraphQL?",
+    "description": "Can someone explain how GraphQL differs from REST and when to use which API style?",
+    "tags": ["graphql", "rest", "api"],
+    "solutions": [
+      "REST has multiple endpoints, GraphQL has a single endpoint.",
+      "GraphQL allows querying only required fields.",
+      "Use GraphQL for complex data relationships."
+    ]
+  },
+  {
+    "questionId": 13,
+    "title": "How to fix memory leak warning in React?",
+    "description": "React shows a warning about memory leaks when updating state on an unmounted component. How do I resolve this?",
+    "tags": ["react", "warnings", "performance"],
+    "solutions": [
+      "Clear subscriptions or timeouts in cleanup function.",
+      "Stop state updates after component unmount.",
+      "Use abort controller to cancel async fetches."
+    ]
+  },
+  {
+    "questionId": 14,
+    "title": "How to create a responsive navbar using CSS?",
+    "description": "I want to build a fully responsive navbar using only HTML and CSS. Any sample code?",
+    "tags": ["css", "navbar", "responsive"],
+    "solutions": [
+      "Use flexbox for layout and media queries for responsiveness.",
+      "Use hamburger icon for small screens.",
+      "Hide and show links using CSS transitions."
+    ]
+  },
+  {
+    "questionId": 15,
+    "title": "How to connect Django backend with React frontend?",
+    "description": "I am trying to build a full-stack application. How do I connect my Django backend API with React?",
+    "tags": ["django", "react", "api"],
+    "solutions": [
+      "Use Django REST Framework to build API.",
+      "Consume API using Axios or fetch in React.",
+      "Configure CORS properly between frontend and backend."
+    ]
+  },
+  {
+    "questionId": 16,
+    "title": "How to use async and await in JavaScript?",
+    "description": "I want to understand async/await syntax and how it simplifies working with promises.",
+    "tags": ["javascript", "async", "await"],
+    "solutions": [
+      "Mark function as async and use await inside it.",
+      "Await pauses execution until promise resolves.",
+      "Use try/catch to handle async errors."
+    ]
+  },
+  {
+    "questionId": 17,
+    "title": "What is the virtual DOM in React?",
+    "description": "People often say that React is fast because of the virtual DOM. How exactly does it work?",
+    "tags": ["react", "virtual-dom", "performance"],
+    "solutions": [
+      "Virtual DOM is an in-memory representation of UI.",
+      "React compares virtual DOM with real DOM (diffing).",
+      "Only changed parts of UI are updated (reconciliation)."
+    ]
+  },
+  {
+    "questionId": 18,
+    "title": "How to hash passwords in Node.js using bcrypt?",
+    "description": "I want to store passwords securely. How do I hash passwords using bcrypt?",
+    "tags": ["nodejs", "bcrypt", "security"],
+    "solutions": [
+      "Use bcrypt.hash() with salt rounds.",
+      "Always store only hashed password, not raw password.",
+      "Use bcrypt.compare() to validate during login."
+    ]
+  },
+  {
+    "questionId": 19,
+    "title": "How to fetch data using Axios in React?",
+    "description": "I want to fetch data from an API when the component loads. How do I use Axios inside useEffect?",
+    "tags": ["axios", "react", "fetch"],
+    "solutions": [
+      "Call Axios inside useEffect with empty dependency.",
+      "Store result in state using useState.",
+      "Handle loading and error states properly."
+    ]
+  },
+  {
+    "questionId": 20,
+    "title": "How to fix ERR_MODULE_NOT_FOUND in Node.js ES Modules?",
+    "description": "I'm using ES Modules and Node shows ERR_MODULE_NOT_FOUND. How do I fix imports and paths?",
+    "tags": ["nodejs", "esm", "modules"],
+    "solutions": [
+      "Use correct file extensions (.js, .mjs).",
+      "Enable type: \"module\" in package.json.",
+      "Use absolute or relative import paths correctly."
+    ]
+  }
+]
