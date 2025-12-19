@@ -13,7 +13,7 @@ const Register = () => {
   const navigate = useNavigate();
   const onSubmitHandler = async (fdata) => {
     try {
-      const res = await fetch("http://localhost:9000/api/user/signup", {
+      const res = await fetch("https://techoverflow-backend.onrender.com/api/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

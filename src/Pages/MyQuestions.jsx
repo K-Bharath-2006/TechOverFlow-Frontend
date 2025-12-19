@@ -10,7 +10,7 @@ const MyQuestions = () => {
   useEffect(() => {
     const fetchMyQuestions = async () => {
       try {
-        const res = await fetch("http://localhost:9000/api/question/my-questions", {
+        const res = await fetch("https://techoverflow-backend.onrender.com/api/question/my-questions", {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,

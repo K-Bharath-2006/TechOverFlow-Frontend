@@ -11,7 +11,7 @@ const Question = () => {
   useEffect(() => {
     const fetchQuestion = async ()=> {
       try {
-        const response = await fetch(`http://localhost:9000/api/question/${id}`,{
+        const response = await fetch(`https://techoverflow-backend.onrender.com/api/question/${id}`,{
           method: "GET",
         });
         
