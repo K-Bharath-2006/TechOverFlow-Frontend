@@ -19,7 +19,7 @@ const AdminHome = () => {
         placeholder="Search questions by tag ..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-      />cls
+      />
       <QuestionCard questions={questions} />
     </div>
   );
