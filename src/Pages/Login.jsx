@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+   // eslint-disable-next-line
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
