@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 
 const QuestionCard = ({ questions }) => {
   const navigate = useNavigate();

@@ -5,6 +5,7 @@ import "./../Styles/Solution.css"
 
 function AddSolution() {
   let [ answer, setAnswer] = useState("");
+  // eslint-disable-next-line
   let [error, setError] = useState("");
   const token = localStorage.getItem("token");
   const navigate = useNavigate();
