@@ -16,6 +16,7 @@ import Register from './Pages/Register';
 import Profile from './Pages/Profile';
 import ProtectedRoute, { AdminRoute } from './Pages/ProtectedRoute';
 import QuestionForm from './Pages/QuestionForm';
+import AddSolution from './Pages/AddSolution';
 
 
 
@@ -67,6 +68,10 @@ const routerVariables = createBrowserRouter([
       {
         path:"/add-question",
         element :<ProtectedRoute> <QuestionForm /> </ProtectedRoute>,
+      },
+      {
+        path:"/add-solution/:id",
+        element :<ProtectedRoute> <AddSolution /> </ProtectedRoute>
       },
       {
         path:"*",

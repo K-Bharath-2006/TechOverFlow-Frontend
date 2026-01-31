@@ -74,19 +74,38 @@
   font-size: 15px;
 }
 
-.add {
-  display: inline-block;
-  margin-left: 1050px;
-  padding: 20px;
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
 }
 
-.add button {
+/* Shared button style */
+.actions button {
   padding: 12px 20px;
   border-radius: 8px;
   border: none;
-  background: #2563eb;
-  color: #ffffff;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
+  color: white;
+}
+
+/* Add solution */
+.add-btn {
+  background: #2563eb;
+}
+
+.add-btn:hover {
+  background: #1e4ed8;
+}
+
+/* Delete question */
+.delete-btn {
+  background: #dc2626; /* red = danger */
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
 }
